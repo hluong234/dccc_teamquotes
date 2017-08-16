@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "Fabulous font";
+    src: url(Fabulous_PERSONAL_USE.ttf) format("truetype");
+}
+
 body {
     width: 700px;
 }
@@ -9,6 +14,14 @@ body>h1 {
     width: 648px;
     padding: 20px;
     clear: both;
+}
+
+.specialSnowflake {
+    background: url('fabfab.jpg') no-repeat top left;
+    background-size: 96px 96px;
+    font-family: "Fabulous font";
+    color: pink;
+    font-size: 49px;
 }
 
 img {
@@ -63,4 +76,3 @@ cite {
     display: inline-block;
     text-align: right;
 }
-
